@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Menu Component</title>
+    <link rel="shortcut icon" href="img/menu.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-1/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-1/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="hero">
+            <h1>Responsive Menu Component</h1>
+            <div class="menu-btn">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="close-menu">
+                <ion-icon name="close"></ion-icon>
+            </div>
+
+            <div class="nav">
+                <ul class="main-menu">
+                    <li class="main-menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">Our Products &nbsp; <ion-icon name="add"></ion-icon></a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#">UX Design</a></li>
+                            <li class="submenu-item"><a href="#">Prototyping</a></li>
+                            <li class="submenu-item"><a href="#">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">Portfolio &nbsp; <ion-icon name="add"></ion-icon></a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#">Tre Olmi</a></li>
+                            <li class="submenu-item"><a href="#">Ernio Tardini</a></li>
+                            <li class="submenu-item"><a href="#">Magaux</a></li>
+                            <li class="submenu-item"><a href="#">Martinelli</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-menu-item"><a href="#">Our Story</a></li>
+                    <li class="main-menu-item">
+                        <a href="#">Contacts &nbsp; <ion-icon name="add"></ion-icon></a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#">Call Now</a></li>
+                            <li class="submenu-item"><a href="#">Email Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts">
+                <p class="call"><ion-icon name="call"></ion-icon>&nbsp; +39 123 456 0789</p>
+                <p class="mail"><ion-icon name="mail"></ion-icon>&nbsp; info@dropdown.com</p>
+            </div>
+
+            <div class="media">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
